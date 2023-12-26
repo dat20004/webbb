@@ -1,0 +1,39 @@
+.body{
+    Font-family: 'Roboto Slab', serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+}
+#tieude h1{
+    font-size: 30px;
+    color: rgb(19, 151, 151);
+}
+.container-tieude{
+    background-color:  rgb(66, 189, 189);
+    height: 21px;
+}
+.container-tieude h{
+    font-size: 17px;
+}
+li:hover{
+    color:rgb(228, 228, 19)
+}
+.khunganh{
+    width: 560px;
+    height: 460px;
+    background-color: rgb(194, 186, 186);
+}
+.khunganh img{
+    width: 560px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.khunganh p{
+color:rgb(66, 68, 189);
+    text-align: center;
+}
+.footer{
+    margin-left: 480px;
+}

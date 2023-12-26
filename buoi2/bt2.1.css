@@ -1,0 +1,55 @@
+.body{
+    font-family: 'Times New Roman',Georgia,serif;
+}
+.header{
+    display: inline;
+}
+.header span{
+    color: #999999;
+}
+span:hover {
+    color: #555555;
+    cursor: pointer;
+}
+.ul{
+    color: #41455e;
+    font-size: 13px;
+}
+.ul li:hover {
+    color: #a8f616;
+    cursor: pointer;
+}
+.header span1{
+    color: red;
+}
+.header h2{
+    width: 692px;
+    height: 116px;
+}
+.container h3{
+    font-size: 17px;
+    line-height: 25px;
+    color: #222;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.container a{
+    text-decoration: underline;
+    color: #222;
+}
+.container p5{
+    font: 600 12px/14px Arial;
+    color: #888!important;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    border-radius: 100px;
+    padding: 9px 11px;
+    display: block;
+    height: 30px;
+    width: 180px;
+    margin-left: 841px;
+}
+.container span3{
+    color: #222;
+}
+

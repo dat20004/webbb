@@ -1,0 +1,235 @@
+.container{
+    width: 1260px;
+    height: 600px;
+    display: flex;
+    gap: 25px;
+    line-height: 1.33333333;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: rgb(169,184,195);
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.container-main-block-hinh1{
+    position: relative;
+}
+.container-main-block-hinh1 .lop2{
+    width: 275px;
+    height: 175px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh1:hover .lop2{
+    opacity: 1;
+
+}
+.container-main-block-hinh1 .lop3{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.container-main-block-hinh1:hover .lop3{
+    opacity: 1;
+}
+.word{
+    margin-top: 33px;
+}
+.word h{
+    font-size: 20px;
+    font-family:  "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    cursor: pointer;
+}
+ .p{
+    position: relative;
+    color: #6d6d6d;
+}
+.p::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #000000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .p:hover::after{
+    transform: scaleX(1);
+}
+
+/* ------------------------ */
+.container-main-block-hinh3{
+    position: relative;
+}
+.container-main-block-hinh3 .lop4{
+    width: 275px;
+    height: 175px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh3:hover .lop4{
+    opacity: 1;
+
+}
+.container-main-block-hinh3 .lop5{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-main-block-hinh3:hover .lop5{
+    opacity: 1;
+    cursor: pointer;
+}
+/* ------------------------------------- */
+.container-main-block-hinh4{
+    position: relative;
+}
+.container-main-block-hinh4 .lop4{
+    width: 275px;
+    height: 175px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh4:hover .lop4{
+    opacity: 1;
+}
+.container-main-block-hinh4 .lop5{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-main-block-hinh4:hover .lop5{
+    opacity: 1;
+    cursor: pointer;
+}
+/* ------------------------------------------- */
+.container-main-block-hinh6{
+    position: relative;
+}
+.container-main-block-hinh6 .lop4{
+    width: 275px;
+    height: 175px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh6:hover .lop4{
+    opacity: 1;
+}
+.container-main-block-hinh6 .lop5{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-main-block-hinh6:hover .lop5{
+    opacity: 1;
+    cursor: pointer;
+}
+/* -------------------------------------------- */
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container-main-block-hinh2{
+    position: relative;
+}
+.container-main-block-hinh2 .lop8{
+    width: 275px;
+    height: 275px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh2:hover .lop8{
+    opacity: 1;
+}
+.container-main-block-hinh2 .lop9{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-main-block-hinh2:hover .lop9{
+    opacity: 1;
+    cursor: pointer;
+}
+.container-main-block-hinh2 .lop9 .word {
+    margin-top: 131px;
+}
+/* -------------------------------------------- */
+
+.container-main-block-hinh5{
+    position: relative;
+}
+.container-main-block-hinh5 .lop4{
+    width: 275px;
+    height: 157px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh5:hover .lop4{
+    opacity: 1;
+}
+.container-main-block-hinh5 .lop5{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-main-block-hinh5:hover .lop5{
+    opacity: 1;
+    cursor: pointer;
+}
+.container-main-block-hinh5 .lop5 .word{
+    margin-top: 25px;
+}
+/* ------------------------------------------- */
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+

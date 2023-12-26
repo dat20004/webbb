@@ -1,0 +1,17 @@
+.body{
+    background-color: #009294; 
+    color: #FFFFFF;
+}
+.contentarea h1{
+    Background-color: yellow;
+    text-align: center;
+}
+.navigation h3{
+    font-size: 16px;
+    color: #FF0000;
+}
+.ol{
+    border-style: dashed;
+    Border-width: 4px; 
+    Border-color: blue;
+}
