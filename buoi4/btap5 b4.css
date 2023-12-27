@@ -33,14 +33,14 @@ body{
 .hop1class .new{
     position: fixed;
     color: black;
-    margin-left: 938px;
+    margin-left: 1207px;
     font-size: 30px;
     z-index: 10;
 }
 
 /* -------------------------------------------------------- */
 .container{
-    /* width: 1000px; */
+    width: 100%;
     height: 600px;
     display: flex;
     /* line-height: 1.33333333; */
@@ -48,25 +48,26 @@ body{
     padding: 0; 
     justify-content: space-between;
     /* flex-wrap: wrap; */
+    /* background-color: aqua; */
     font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 .right{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 390px;
+    
 }
 .container-main-block-hinh1{
-    width: 300px;
-    height: 200px;
     position: relative;
+    margin-bottom: -15px;
 }
 .container-main-block-hinh1 .lop2{
-    width: 270px;
-    height: 170px;
+    width: 330px;
+    height: 209.99px;
     background-color: #fff;
     position: absolute;
-    top: 21.5px;
-    left: 19.5px;
+    top: 36.5px;
+    left: 33.5px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -76,8 +77,8 @@ body{
 }
 .container-main-block-hinh1 .lop3{
     position: absolute;
-    top: 33px;
-    left: 50px;
+    top: 40px;
+    left: 42px;
     opacity: 0;
     transition: 0.4s;
     cursor: pointer;
@@ -86,10 +87,10 @@ body{
     opacity: 1;
 }
 .word{
-    margin-top: -4px;
+    margin-top: 14px;
 }
 .word h{
-    font-size: 20px;
+    font-size: 22px;
     font-family:  "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     cursor: pointer;
 }
@@ -104,29 +105,28 @@ body{
     position: absolute;
     bottom: -5px;
     height: 1px;
-    width: 100%;
+    width: 0;
     left: 0;
     background-color: #000000;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    transform: scaleX(0);
+    /* transform: scaleX(0); */
 }
 .lop3 .word p:hover::after{
-    transform: scaleX(1);
+    /* transform: scaleX(1); */
+    width: 100%;
 }
 /* ------------------------------------- */
 .container-main-block-hinh4{
     position: relative;
-    width: 300px;
-    height: 199px;
 }
 .container-main-block-hinh4 .lop4{
-    width: 270px;
-    height: 170px;
+    width: 330px;
+    height: 209.99px;
     background-color: #fff;
     position: absolute;
-    top: 21.5px;
-    left: 19.5px;
+    top: 36.5px;
+    left: 33.5px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -135,8 +135,8 @@ body{
 }
 .container-main-block-hinh4 .lop5{
     position: absolute;
-    top: 33px;
-    left: 50px;
+    top: 40px;
+    left: 42px;
     opacity: 0;
     transition: 0.4s;
 }
@@ -153,35 +153,35 @@ body{
     position: absolute;
     bottom: -5px;
     height: 1px;
-    width: 40px;
+    width: 0;
     left: 0;
     background-color: #000000;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    transform: scaleX(0);
+    /* transform: scaleX(0); */
 }
 .lop5 .word p:hover::after{
-    transform: scaleX(1);
+    /* transform: scaleX(1); */
+    width: 40px;
 }
 /* ------------------------------------------- */
 
 .center{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 390px;
 }
 .container-main-block-hinh2{
     position: relative;
-    width: 300px;
-    height: 300px;
+    margin-bottom: -15px;
 }
 .container-main-block-hinh2 .lop6{
-    width: 275px;
-    height: 275px;
+    width: 330px;
+    height: 330px;
     background-color: #fff;
     position: absolute;
-    top: 18px;
-    left: 17px;
+    top: 37px;
+    left: 36px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -190,8 +190,8 @@ body{
 }
 .container-main-block-hinh2 .lop7{
     position: absolute;
-    top: 33px;
-    left: 50px;
+    top: 40px;
+    left: 42px;
     opacity: 0;
     transition: 0.4s;
 }
@@ -200,7 +200,11 @@ body{
     cursor: pointer;
 }
 .container-main-block-hinh2 .lop7 .word {
-    margin-top: 90px;
+    margin-top: 148px;
+}
+.lop7 .word{
+    width: 235.58px;
+    height: 131.2px;
 }
 .lop7 .word p{
     position: relative;
@@ -211,30 +215,29 @@ body{
     position: absolute;
     bottom: -5px;
     height: 1px;
-    width: 100px;
+    width: 0;
     left: 0;
     background-color: #000000;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    transform: scaleX(0);
+    /* transform: scaleX(0); */
 }
 .lop7 .word p:hover::after{
-    transform: scaleX(1);
+    /* transform: scaleX(1); */
+    width: 100px;
 }
 /* -------------------------------------------- */
 
 .container-main-block-hinh5{
     position: relative;
-    width: 300px; 
-    height: 182px;
 }
 .container-main-block-hinh5 .lop8{
-    width: 275px;
-    height: 157px;
+    width: 330px;
+    height: 188.4px;
     background-color: #fff;
     position: absolute;
-    top: 17.5px;
-    left: 16.5px;
+    top: 34.5px;
+    left: 34.5px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -243,8 +246,8 @@ body{
 }
 .container-main-block-hinh5 .lop9{
     position: absolute;
-    top: 23px;
-    left: 50px;
+    top: 40px;
+    left: 42px;
     opacity: 0;
     transition: 0.4s;
 }
@@ -253,7 +256,7 @@ body{
     cursor: pointer;
 }
 .container-main-block-hinh5 .lop9 .word{
-    margin-top: -12px;
+    margin-top: 11px;
 }
 .lop9 .word p{
     position: relative;
@@ -264,15 +267,16 @@ body{
     position: absolute;
     bottom: -5px;
     height: 1px;
-    width: 81px;
+    width: 0;
     left: 0;
     background-color: #000000;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    transform: scaleX(0);
+    /* transform: scaleX(0); */
 }
 .lop9 .word p:hover::after{
-    transform: scaleX(1);
+    /* transform: scaleX(1); */
+    width: 81px;
 }
 /* ------------------------------------------- */
 
@@ -280,21 +284,20 @@ body{
 .left{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 390px;
 }
 
 .container-main-block-hinh3{
     position: relative;
-    width: 300px; 
-    height: 200px;
+    margin-bottom: -15px;
 }
 .container-main-block-hinh3 .lop10{
-    width: 275px;
-    height: 175px;
+    width: 330px;
+    height: 208.8px;
     background-color: #fff;
     position: absolute;
-    top: 18.3px;
-    left: 17.5px;
+    top: 37.3px;
+    left: 35.5px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -304,8 +307,8 @@ body{
 }
 .container-main-block-hinh3 .lop11{
     position: absolute;
-    top: 33px;
-    left: 50px;
+    top: 40px;
+    left: 42px;
     opacity: 0;
     transition: 0.4s;
 }
@@ -314,7 +317,7 @@ body{
     cursor: pointer;
 }
 .container-main-block-hinh3 .lop11 .word{
-    margin-top: -12px;
+    margin-top: 11px;
 }
 .lop11 .word p{
     position: relative;
@@ -325,29 +328,26 @@ body{
     position: absolute;
     bottom: -5px;
     height: 1px;
-    width: 81px;
+    width: 0;
     left: 0;
     background-color: #000000;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    transform: scaleX(0);
 }
 .lop11 .word p:hover::after{
-    transform: scaleX(1);
+    width: 81px;
 }
 /* ------------------------------------- */
 .container-main-block-hinh6{
     position: relative;
-    width: 300px; 
-    height: 200px;
 }
 .container-main-block-hinh6 .lop12{
-    width: 275px;
-    height: 175px;
+    width: 330px;
+    height: 209.99px;
     background-color: #fff;
     position: absolute;
-    top: 18.3px;
-    left: 17.5px;
+    top: 36.5px;
+    left: 33.5px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -356,8 +356,8 @@ body{
 }
 .container-main-block-hinh6 .lop13{
     position: absolute;
-    top: 33px;
-    left: 50px;
+    top: 40px;
+    left: 42px;
     opacity: 0;
     transition: 0.4s;
 }
@@ -374,15 +374,14 @@ body{
     position: absolute;
     bottom: -5px;
     height: 1px;
-    width: 40px;
+    width: 0;
     left: 0;
     background-color: #000000;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    transform: scaleX(0);
 }
 .lop13 .word p:hover::after{
-    transform: scaleX(1);
+    width: 40px;
 }
 /* -------------------------------------------- */
 
