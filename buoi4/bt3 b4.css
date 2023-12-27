@@ -96,7 +96,7 @@
     height: 30px;
     border-radius: 50%;
     text-align: center;
-    line-height: 32px;
+    line-height: 30px;
 }
 .new:hover{
     background-color: rgba(206, 203, 203, 0.4);

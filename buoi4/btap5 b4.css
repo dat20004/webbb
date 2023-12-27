@@ -1,30 +1,72 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.hop11{
+    width: 100%;
+    height: 15px;
+    margin-top: -22px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+body{
+    font-family:"Function Pro",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.hop1{
+    background-color: gray;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.hop1class .imggg{
+    position: fixed; 
+    width: 50px;
+    height: 50px;
+    margin-left: 24.5px;
+    z-index: 10;
+}
+.hop1class .new{
+    position: fixed;
+    color: black;
+    margin-left: 938px;
+    font-size: 30px;
+    z-index: 10;
+}
+
+/* -------------------------------------------------------- */
 .container{
-    width: 1260px;
+    /* width: 1000px; */
     height: 600px;
     display: flex;
-    gap: 25px;
-    line-height: 1.33333333;
-    /* justify-content: space-evenly; */
-    flex-wrap: wrap;
-    padding: 40px;
-    background-color: rgb(169,184,195);
+    /* line-height: 1.33333333; */
+    margin: 0;
+    padding: 0; 
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
     font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 .right{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    width: 300px;
 }
 .container-main-block-hinh1{
+    width: 300px;
+    height: 200px;
     position: relative;
 }
 .container-main-block-hinh1 .lop2{
-    width: 275px;
-    height: 175px;
+    width: 270px;
+    height: 170px;
     background-color: #fff;
     position: absolute;
-    top: 13px;
-    left: 12px;
+    top: 21.5px;
+    left: 19.5px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -34,7 +76,7 @@
 }
 .container-main-block-hinh1 .lop3{
     position: absolute;
-    top: 50px;
+    top: 33px;
     left: 50px;
     opacity: 0;
     transition: 0.4s;
@@ -44,18 +86,20 @@
     opacity: 1;
 }
 .word{
-    margin-top: 33px;
+    margin-top: -4px;
 }
 .word h{
     font-size: 20px;
     font-family:  "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     cursor: pointer;
 }
- .p{
+
+
+.lop3 .word p{
     position: relative;
     color: #6d6d6d;
 }
-.p::after{
+.lop3 .word p::after{
     content: "";
     position: absolute;
     bottom: -5px;
@@ -67,50 +111,22 @@
     transition-timing-function: ease-in-out;
     transform: scaleX(0);
 }
- .p:hover::after{
+.lop3 .word p:hover::after{
     transform: scaleX(1);
-}
-
-/* ------------------------ */
-.container-main-block-hinh3{
-    position: relative;
-}
-.container-main-block-hinh3 .lop4{
-    width: 275px;
-    height: 175px;
-    background-color: #fff;
-    position: absolute;
-    top: 13px;
-    left: 12px;
-    transition: 0.4s;
-    opacity: 0;
-}
-.container-main-block-hinh3:hover .lop4{
-    opacity: 1;
-
-}
-.container-main-block-hinh3 .lop5{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    opacity: 0;
-    transition: 0.4s;
-}
-.container-main-block-hinh3:hover .lop5{
-    opacity: 1;
-    cursor: pointer;
 }
 /* ------------------------------------- */
 .container-main-block-hinh4{
     position: relative;
+    width: 300px;
+    height: 199px;
 }
 .container-main-block-hinh4 .lop4{
-    width: 275px;
-    height: 175px;
+    width: 270px;
+    height: 170px;
     background-color: #fff;
     position: absolute;
-    top: 13px;
-    left: 12px;
+    top: 21.5px;
+    left: 19.5px;
     transition: 0.4s;
     opacity: 0;
 }
@@ -119,7 +135,7 @@
 }
 .container-main-block-hinh4 .lop5{
     position: absolute;
-    top: 50px;
+    top: 33px;
     left: 50px;
     opacity: 0;
     transition: 0.4s;
@@ -128,101 +144,135 @@
     opacity: 1;
     cursor: pointer;
 }
-/* ------------------------------------------- */
-.container-main-block-hinh6{
+.lop5 .word p{
     position: relative;
+    color: #6d6d6d;
 }
-.container-main-block-hinh6 .lop4{
-    width: 275px;
-    height: 175px;
-    background-color: #fff;
+.lop5 .word p::after{
+    content: "";
     position: absolute;
-    top: 13px;
-    left: 12px;
-    transition: 0.4s;
-    opacity: 0;
+    bottom: -5px;
+    height: 1px;
+    width: 40px;
+    left: 0;
+    background-color: #000000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
 }
-.container-main-block-hinh6:hover .lop4{
-    opacity: 1;
+.lop5 .word p:hover::after{
+    transform: scaleX(1);
 }
-.container-main-block-hinh6 .lop5{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    opacity: 0;
-    transition: 0.4s;
-}
-.container-main-block-hinh6:hover .lop5{
-    opacity: 1;
-    cursor: pointer;
-}
-/* -------------------------------------------- */
+/* ------------------------------------------- */
+
 .center{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    width: 300px;
 }
 .container-main-block-hinh2{
     position: relative;
+    width: 300px;
+    height: 300px;
 }
-.container-main-block-hinh2 .lop8{
+.container-main-block-hinh2 .lop6{
     width: 275px;
     height: 275px;
     background-color: #fff;
     position: absolute;
-    top: 13px;
-    left: 12px;
+    top: 18px;
+    left: 17px;
     transition: 0.4s;
     opacity: 0;
 }
-.container-main-block-hinh2:hover .lop8{
+.container-main-block-hinh2:hover .lop6{
     opacity: 1;
 }
-.container-main-block-hinh2 .lop9{
+.container-main-block-hinh2 .lop7{
     position: absolute;
-    top: 50px;
+    top: 33px;
     left: 50px;
     opacity: 0;
     transition: 0.4s;
 }
-.container-main-block-hinh2:hover .lop9{
+.container-main-block-hinh2:hover .lop7{
     opacity: 1;
     cursor: pointer;
 }
-.container-main-block-hinh2 .lop9 .word {
-    margin-top: 131px;
+.container-main-block-hinh2 .lop7 .word {
+    margin-top: 90px;
+}
+.lop7 .word p{
+    position: relative;
+    color: #6d6d6d;
+}
+.lop7 .word p::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 100px;
+    left: 0;
+    background-color: #000000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.lop7 .word p:hover::after{
+    transform: scaleX(1);
 }
 /* -------------------------------------------- */
 
 .container-main-block-hinh5{
     position: relative;
+    width: 300px; 
+    height: 182px;
 }
-.container-main-block-hinh5 .lop4{
+.container-main-block-hinh5 .lop8{
     width: 275px;
     height: 157px;
     background-color: #fff;
     position: absolute;
-    top: 13px;
-    left: 12px;
+    top: 17.5px;
+    left: 16.5px;
     transition: 0.4s;
     opacity: 0;
 }
-.container-main-block-hinh5:hover .lop4{
+.container-main-block-hinh5:hover .lop8{
     opacity: 1;
 }
-.container-main-block-hinh5 .lop5{
+.container-main-block-hinh5 .lop9{
     position: absolute;
-    top: 50px;
+    top: 23px;
     left: 50px;
     opacity: 0;
     transition: 0.4s;
 }
-.container-main-block-hinh5:hover .lop5{
+.container-main-block-hinh5:hover .lop9{
     opacity: 1;
     cursor: pointer;
 }
-.container-main-block-hinh5 .lop5 .word{
-    margin-top: 25px;
+.container-main-block-hinh5 .lop9 .word{
+    margin-top: -12px;
+}
+.lop9 .word p{
+    position: relative;
+    color: #6d6d6d;
+}
+.lop9 .word p::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 81px;
+    left: 0;
+    background-color: #000000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.lop9 .word p:hover::after{
+    transform: scaleX(1);
 }
 /* ------------------------------------------- */
 
@@ -230,6 +280,109 @@
 .left{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    width: 300px;
 }
+
+.container-main-block-hinh3{
+    position: relative;
+    width: 300px; 
+    height: 200px;
+}
+.container-main-block-hinh3 .lop10{
+    width: 275px;
+    height: 175px;
+    background-color: #fff;
+    position: absolute;
+    top: 18.3px;
+    left: 17.5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh3:hover .lop10{
+    opacity: 1;
+
+}
+.container-main-block-hinh3 .lop11{
+    position: absolute;
+    top: 33px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-main-block-hinh3:hover .lop11{
+    opacity: 1;
+    cursor: pointer;
+}
+.container-main-block-hinh3 .lop11 .word{
+    margin-top: -12px;
+}
+.lop11 .word p{
+    position: relative;
+    color: #6d6d6d;
+}
+.lop11 .word p::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 81px;
+    left: 0;
+    background-color: #000000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.lop11 .word p:hover::after{
+    transform: scaleX(1);
+}
+/* ------------------------------------- */
+.container-main-block-hinh6{
+    position: relative;
+    width: 300px; 
+    height: 200px;
+}
+.container-main-block-hinh6 .lop12{
+    width: 275px;
+    height: 175px;
+    background-color: #fff;
+    position: absolute;
+    top: 18.3px;
+    left: 17.5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.container-main-block-hinh6:hover .lop12{
+    opacity: 1;
+}
+.container-main-block-hinh6 .lop13{
+    position: absolute;
+    top: 33px;
+    left: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-main-block-hinh6:hover .lop13{
+    opacity: 1;
+    cursor: pointer;
+}
+.lop13 .word p{
+    position: relative;
+    color: #6d6d6d;
+}
+.lop13 .word p::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 40px;
+    left: 0;
+    background-color: #000000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.lop13 .word p:hover::after{
+    transform: scaleX(1);
+}
+/* -------------------------------------------- */
 

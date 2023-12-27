@@ -44,10 +44,27 @@ body{
     position: absolute;
     border: 1px solid black;
 }
-.captionsmall1{
+.captionsmall11{
     list-style-type: none;
     margin-left: 10px;
     line-height: 40px;
+    transition: 0.5s;
+    position: relative;
+}
+.captionsmall11::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .captionsmall1:hover::after{
+    transform: scaleX(1);
 }
 .caption1:hover .caption-table1{
     display: block;
@@ -86,6 +103,27 @@ body{
     margin-left: 10px;
     line-height: 40px;
 }
+.captionsmall22{
+    font-size: 15px;
+    transition: 0.5s;
+    position: relative;
+}
+.captionsmall22::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    text-decoration: solid;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .captionsmall22:hover::after{
+    transform: scaleX(1);
+}
 .caption2:hover .caption-table2{
     display: block;
 }
@@ -94,7 +132,7 @@ body{
     color: black;
     display: none;
     margin-top: 10px;
-    height: 340px;
+    height: 300px;
     width: 200px;
     position: absolute;
     border: 1px solid black;
@@ -231,22 +269,22 @@ body{
     height: 20px;
     cursor: pointer;
     color: white;
-    margin-left: 15px;
+    margin-left: -15px;
     background-color: transparent;
     padding-block: 1px;
     padding-inline: 6px;
-    border-width: 2px;
+    /* border-width: 2px;
     border-style: outset;
     border-color: buttonborder;
-    border-image: initial;
+    border-image: initial; */
 }
 .search1 {
     width: 0px;
     /* margin-left: -15px; */
     height: 0px;
-    margin-left: 15px;
+    margin-left: 108px;
     left: 400px;
-    top: 0;
+    top: -4px;
     overflow: hidden;
     transition: width 0.3s ease-in-out;
     padding: 0;
@@ -296,7 +334,7 @@ body{
     font-family: "Times New Roman", Times, serif;
     color: white;
     margin-top: 300px;
-    margin-left: -780px;
+    margin-left: -880px;
     width: 500px;
     height: auto;
     text-align: center;
@@ -307,7 +345,7 @@ body{
     position: relative;
     background-color: white;
     color: black;
-    margin-left: -610px;
+    margin-left: -690px;
     margin-top: 50px;
     width: 150px;
     border: none;
@@ -328,7 +366,7 @@ body{
     font-size: 15px;
     position: fixed;
      bottom: 50px;
-    right: 1370px;
+    right: 1325px;
     box-sizing: border-box;
 }
 .caption8small2:hover{
@@ -350,8 +388,8 @@ body{
 .img2{
     width: 232px;
     height: 272.4px;
-    right: 1108px;
-    top: 1467px;
+    right: 1064px;
+    top: 1465px;
     position: absolute;
     display: none;
 }
@@ -376,8 +414,8 @@ body{
 .img4{
     width: 232px;
     height: 272.4px;
-    right: 788px;
-    top: 1467px;
+    right: 743px;
+    top: 1465px;
     position: absolute;
     display: none;
 }
@@ -396,8 +434,8 @@ body{
 .img6{
     width: 232px;
     height: 272.4px;
-    right: 466px;
-    top: 1466px;
+    right: 421px;
+    top: 1465px;
     position: absolute;
     display: none;
 }
@@ -417,8 +455,8 @@ body{
 .img8{
     width: 232px;
     height: 272.4px;
-    right: 146px;
-    top: 1466px;
+    right: 100px;
+    top: 1465px;
     position: absolute;
     display: none;
 }
