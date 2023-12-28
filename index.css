@@ -1,21 +1,180 @@
 body {
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    overflow: auto;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-    background-image: url("Hinh-anh-thien-nhien-dep-luc-binh-minh.jpg");
-    font-family: "Google Sans",sans-serif;
-    background-color: rgb(110, 104, 204);
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  overflow: auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  background-image: url("anhbe.jpg");
+  font-family: "Google Sans",sans-serif;
 }
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: #000000;
+  color: white;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  gap: 1100px;
+}
+.ndung{
+  width: 250px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ndung p{
+  font-size: 20px;
+}
+.icon{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  height: 68px;
+  width: 40px;
+}
+.icon-bar{
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.icon:hover .list-ndung{
+  display: block;
+}
+.list-ndung{
+  list-style-type: none;
+  width: 180px;
+  height: 266px;
+  color: #fff;
+  background-color: #000000;
+  position: absolute;
+  top: 65px;
+  right: 26px;
+  border-top: 3px solid #fff;
+  display: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.text-1{
+  width: 180px;
+  height: 43px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-top: 0.5px solid #8e8e8e;
+  border-bottom: 0.5px solid #636363;
+}
+.text-1 span{
+  padding-right: 20px;
+}
+.text-1:hover{
+  color: #0dc0c0;
+  background-color: #2a2e34;
+}
+.container-content-3{
+  width: 140px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+.list-icon{
+  list-style-type: none;
+  width: 140px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+}
+.icon-instagram {
+  width: 46px;
+  height: 68px;
+  color: #b0bac2;
+  display: flex !important;
+  justify-content: center !important;
+  line-height: 68px !important;
+  border-left: 1px solid #636363;
+  transition: all 0.1s ease-in-out 0s;
+}
+.icon-facebook{
+  width: 46px;
+  height: 68px;
+  color: #b0bac2;
+  display: flex !important;
+  justify-content: center !important;
+  line-height: 68px !important;
+  border-left: 1px solid #636363;
+  border-right: 1px solid #636363;
+}
+.icon-envelope {
+  width: 46px;
+  height: 68px;
+  color: #b0bac2;
+  display: flex !important;
+  justify-content: center !important;
+  line-height: 68px !important;
+  border-right: 1px solid #636363;
+}
+.icon-instagram:hover {
+  background-color: #0f96c3;
+  color: white;
+  
+}
+.icon-facebook:hover {
+  background-color: #0cce46;
+  color: white;
+}
+.icon-envelope:hover {
+  background-color: #f40808;
+  color: white;
+}
+.icon-angle{
+  margin-right: 10px;
+}
+.home{
+  padding-right: 20px;
+  position: relative;
+}
+.list-home-text{
+  list-style-type: none;
+  width: 180px;
+  height: 133px;
+  color: #fff;
+  background-color: #000000;
+  position: absolute;
+  top: 41.8px;
+  left: -175px;
+  border-top: 1px solid #a7a7a7;
+  display: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.text-1:hover .list-home-text{
+  display: block;
+}
+
 .header {
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif
+  background-color: rgb(31, 132, 145);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Potta One', cursive;
 }
 
 section {
@@ -168,7 +327,7 @@ footer{
 .container{
   display: flex;
   justify-content: space-around;
-  background-color: blue;
+  background-color: black;
 }
 .navigation{
   display: flex;
@@ -242,4 +401,12 @@ footer{
 }
 .list-4:hover .list-home-text-3{
   display: block;
+}
+.iconthemoment{
+  font-size: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.list-4 .i{
+  border: 1px solid #fff;
 }

@@ -3,13 +3,15 @@
     padding: 5px;
     
 }
+.hop1class{
+    display: flex;
+}
 .hop11{
     width: 100%;
     height: 15px;
     margin-top: -22px;
     position: fixed;
     background-color: white;
-    z-index: 1;
 }
 body{
     font-family:"Function Pro",sans-serif;
@@ -17,25 +19,81 @@ body{
     font-weight: normal;
 }
 .hop1{
-    background-color: gray;
+    background-color: #f2f2f2;
     height: 1500px;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
+
 }
-.hop1class .imggg{
-    position: fixed; 
-    width: 50px;
-    height: 50px;
-    margin-left: 24.5px;
-    z-index: 10;
+.bar{
+    border: none;
 }
-.hop1class .new{
+.icon1{
+    cursor: pointer;
+}
+.bar:focus + .search-focus{
+    height: 100vh;
+    display: block;
+}
+.search-focus{
+    width: 100%;
+    height: 0;
+    background-color: rgb(41, 41, 41,0.8);
     position: fixed;
-    color: black;
-    margin-left: 1207px;
+    z-index: 100 !important;
+    left: 0;
+    top: 0;
+    display: none;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+.search-focus-container{
+    width: 1000px;
+    line-height: 45px;
+    text-align: center;
+}
+.caption1-search{
     font-size: 30px;
-    z-index: 10;
+    margin-top: 0px;
+    margin-left: 530px;
+    color: white;
+}
+.caption1-search{
+    transition: 0.5s;
+    position: relative;
+}
+.caption1-search::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    right: 0;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .caption1-search:hover::after{
+    transform: scaleX(1);
+}
+.caption2-search{
+    font-size: 30px;
+    margin-left: 530px;
+    color: white;
+    border-bottom: 3px solid ;
+}
+.caption3-search{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 530px;
+    color: rgb(40, 40, 40);
+}
+.icon2{
+    font-size: 30px;
+    color: white;
+    margin-left: 1272px;
+    background-color: transparent;
+    margin-top: 60px;
+    border: none;
 }
 
 /* -------------------------------------------------------- */
@@ -44,9 +102,9 @@ body{
     height: 600px;
     display: flex;
     /* line-height: 1.33333333; */
-    margin: 0;
-    padding: 0; 
-    justify-content: space-between;
+    margin: 0 !important;
+    padding: 0 !important; 
+    justify-content: space-evenly;
     /* flex-wrap: wrap; */
     /* background-color: aqua; */
     font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
