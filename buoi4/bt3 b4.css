@@ -1,8 +1,12 @@
+body{
+    font-family: 'Inter',sans-serif;
+}
 .container{
     background-color: #20182d;
-    padding: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px !important;
+    /* font-family: Arial, Helvetica, sans-serif; */
     margin-left: 100px;
+   
 }
 .header{
     color: white;
@@ -96,9 +100,8 @@
     height: 30px;
     border-radius: 50%;
     text-align: center;
-    line-height: 30px;
+    line-height: 32px !important;
 }
 .new:hover{
     background-color: rgba(206, 203, 203, 0.4);
 }
-
