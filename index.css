@@ -110,6 +110,7 @@ body {
   line-height: 68px !important;
   border-left: 1px solid #636363;
   transition: all 0.1s ease-in-out 0s;
+  border-right: 1px solid #636363;
 }
 .icon-facebook{
   width: 46px;
@@ -119,7 +120,6 @@ body {
   justify-content: center !important;
   line-height: 68px !important;
   border-left: 1px solid #636363;
-  border-right: 1px solid #636363;
 }
 .icon-envelope {
   width: 46px;
@@ -131,12 +131,12 @@ body {
   border-right: 1px solid #636363;
 }
 .icon-instagram:hover {
-  background-color: #0f96c3;
+  background-color: #db3a9b;
   color: white;
   
 }
 .icon-facebook:hover {
-  background-color: #0cce46;
+  background-color: #0f96c3;
   color: white;
 }
 .icon-envelope:hover {
