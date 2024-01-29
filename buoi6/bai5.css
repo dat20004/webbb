@@ -1,10 +1,5 @@
 *{
     transition: 0.4s;
-    margin: 0;
-    padding: 0;
-}
-body{
-    /* background-color: ; */
 }
 .mySlides {
     display:none;
@@ -23,13 +18,12 @@ body{
     border-radius: 20px;
 }
 .displaycontainer{
-    position:relative;
+    position: relative;
 }
 .button{
     font-size: 48px;
     border: none;
     display: inline-block;
-    padding: 0 12px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
