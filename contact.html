@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
+    <title>CONTACT</title>
+    <link rel="icon" type="image/png" href="./img/avatar.jpg" alt="Image"
+            width="40px" height="40px">
+    <link rel="stylesheet" href="./cv/contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
         <script
             src="https://kit.fontawesome.com/533aad8d01.js"
             crossorigin="anonymous"
@@ -14,7 +18,7 @@
 <body>
     <header>
         <div class="cv">
-            <img src="./img/logo.png" alt="icon">
+            <img src="./img/logochuan.png" alt="icon">
         </div>
         <div class="center">
             <ul class="thanhdieuhuong">
@@ -31,44 +35,47 @@
         <div class="id">
             <h>Contact me</h>
         </div>
+        <br>
         
         <div class="footer-center">
             <div class="footer-left">
-                <form id="contactForm" action="#" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-              
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-              
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-              
-                    <input type="submit" value="Submit">
-                  </form>
+                <div class="container-page-text">
+                    <div class="container-page">
+                        <input class="input" id="nameInput" placeholder="Name" />
+                    </div>  
+                    <div class="container-page">
+                        <input class="input" id="emailInput" placeholder="E-mail" />
+                    </div>  
+                </div>  
+                <div class="container-page">
+                    <input class="input1" id="messageInput" placeholder="Message" />
+                </div>  
+                <button class="btn-submit" onclick="submitForm()">Submit</button>
+                <div class="message" id="Message">Bạn đã gửi thành công</div>
+                <!-- <div class="name" id="name">Vui lòng nhập đủ thông tin</div> -->
+                <div class="error" id="error">Vui lòng đúng định dạng email</div>
             </div>
-            <script src="contact.js"></script>
+            <script src="./cv/contact.js"></script>
             <div class="footer-right">
                 <div class="contact-me">
                      <h>Contact</h>
                 </div>
-               
                 <ul class="contact-tyle">
                     <li><i class="fa-solid fa-location-dot" style="font-size: 21px; margin-top: 5px!important;"></i><p>Ngọc Thuỵ, Long Biên, Hà Nội</p></li>
-                    <li><i class="fa-solid fa-phone" style="font-size: 21px;margin-top: 5px!important;"></i><p>+84 86756891</p></li>
-                    <li><i class="fa-solid fa-envelope" style="font-size: 21px;margin-top: 5px!important;"></i><p>abcd@gmail.com</p></li>
+                    <li><i class="fa-solid fa-phone" style="font-size: 21px;margin-top: 5px!important;"></i><p>+84 867912204</p></li>
+                    <li><i class="fa-solid fa-envelope" style="font-size: 21px;margin-top: 5px!important;"></i><p>nvdat22082004@gmail.com</p></li>
                     <hr>
                     <div class="social">
                         <p>Social</p>
                     </div>    
                     <div class="contact-icon"> 
                             <a href="https://www.facebook.com/tuann.anhn.1"><i1 class="fa-brands fa-facebook-f"></i1></a>
-                            <i2 class="fa-brands fa-twitter"></i2>
                             <a href="https://www.instagram.com/t_alh12/"><i3 class="fa-brands fa-instagram"></i3></a>
                             <a href="https://mail.google.com/mail/u/0/#inbox"><i4 class="fa-regular fa-envelope"></i4></a>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
+                    
+                    <div id="map"></div>
+                    <script src="./cv/contact.js"></script>
             </div>
         </div>
     </div>

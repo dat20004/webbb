@@ -1,10 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var dropdowns = document.querySelectorAll('.submenu');
-  
-    dropdowns.forEach(function (dropdown) {
-      dropdown.addEventListener('click', function () {
-        this.classList.toggle('active');
-      });
-    });
-  });
+var menuTitle = document.getElementById("menuTitle");
+var menuList = document.getElementById("menuList");
+
+// Thêm sự kiện "click" cho tiêu đề menu
+menuTitle.addEventListener("click", function() {
+    // Toggle hiển thị của danh sách menu
+    if (menuList.style.display === "none") {
+        menuList.style.display = "block";
+    } else {
+        menuList.style.display = "none";
+    }
+});
   
