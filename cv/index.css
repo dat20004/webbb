@@ -77,6 +77,7 @@ header .center .thanhdieuhuong .li .a{
 .profile{
   margin-bottom: 20px;
   text-align: center;
+  /* width: 100%; */
 }
 .profile img{
   border-radius: 50%;
@@ -307,16 +308,18 @@ footer{
   .hop-menu{
       display: block !important;
   }
-  .profile{
-    margin-top: 180px;
-    margin-left: 307px;
+  .left{
+    width: 100%;
+  }
+  .right{
+    height: 300px;
   }
   .displaycontainer{
     margin-top: 130px;
     margin-left: -19px;
   }
   .container-main{
-    height: 120vh;
+    height: 85vh;
   }
   footer{
     margin-top: -105px;
