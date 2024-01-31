@@ -7,12 +7,14 @@
         <link rel="icon" type="image/png" href="./img/avatar.jpg" alt="Image"
             width="40px" height="40px">
         <link rel="stylesheet" href="./cv/index.css">
+        <link rel="stylesheet" href="./cv/responsive.css">
         <script
             src="https://kit.fontawesome.com/533aad8d01.js"
             crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
+            
             <div class="cv">
                 <img src="./img/logochuan.png" alt="icon">
             </div>
@@ -24,17 +26,33 @@
                     <li><a href="service.html" class="btn btn-5"><p class="home">Service</p></a></li>
                     <li><a href="contact.html" class="btn btn-5"><p class="home">Contact</p></a></li>
                 </ul>
+            
+            <div class="hop-menu" onclick="myD()" style="width: 20px;">
+                <a><i class="menu fa-solid fa-bars" style="cursor: pointer; font-size: 30px;"></i></a>
             </div>
+            <div class="bd6" id="menu">
+                <div onclick="myX()" style="width: 20px;">
+                    <i class="fa fa-times" aria-hidden="true" style="color: black; font-size: 30px; cursor: pointer;"></i>
+                </div>
+            
+            <nav class="bd61">
+                <a class="portfolio" href="index.html" >HOME</a>
+                <a class="portfolio" href="rusume.html">RUSUME</a>
+                <a class="portfolio" href="portfolio.html">PORTFOLIO</a>
+                <a class="portfolio" href="services.html">SERVICES</a>
+                <a class="portfolio" href="contact.html">CONTACT</a>  
+            </nav>
+        </div>
+        </div>
         </header>
-
         <!-- main -->
                 <div class="container-main">
                     <div class="container-center">
                         <div class="right">
                             <div class="image">
-                                <h class="hp">AUGUST 22, 2004</h>
-                                <p class="post">POST</p>
                                 <div class="container displaycontainer">
+                                    <h class="hp">2022 - 2024</h>
+                                <p class="post">POST</p>
                                     <img class="mySlides"
                                         src="./img/doibong.jpg"
                                         style="width:100%;height:100%">
@@ -64,7 +82,7 @@
                     <div class="footer-h">
                         <h>Contact me</h>
                     </div>
-                    <br>
+                    <!-- <br> -->
                     <div class="footer-icon">
                         <a href="https://www.facebook.com/dat2208"><i1 class="fa-brands fa-facebook-f"></i1></a>
                         <a href="https://www.instagram.com/nvd.2208/"><i3 class="fa-brands fa-instagram"></i3></a>

@@ -76,11 +76,12 @@ header .center .thanhdieuhuong .li .a {
 
 .home {
     font-size: 27px;
-    font-weight: 200;
+    font-weight: 300;
+    color: #E4F6FF;
 }
 
 .home:hover {
-    color: #151315;
+    /* color: #E4F6FF; */
     text-shadow: 0px 1px 10px #B6DDFF;
 }
 
