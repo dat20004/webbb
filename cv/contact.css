@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-/* body{
-    /* background-color: black; 
-}*/
+body{
+     background-color: #E4F6FF; 
+}
 header {
-  background-color: rgb(12, 121, 245);
+  background-color: #0067CD;
   width: 100%;
   height: 80px;
   display: flex;
@@ -79,9 +80,13 @@ header .center .thanhdieuhuong .li .a{
 .btn-5 {
   text-shadow: none;
 }
-
-.btn-5:hover {
-  color: orange;
+.home{
+  font-size: 25px;
+  font-weight: 200;
+}
+.home:hover{
+  color: #151315;
+   text-shadow: 0px 1px 10px #77325a
 }
 
 .thanhdieuhuong li button {
@@ -135,7 +140,7 @@ header .center .thanhdieuhuong .li .a{
   .footer .footer-center .footer-left{
     width: 100%;
     height: 250px;
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
   }
   .contact-tyle{
     list-style-type: none;
@@ -189,56 +194,73 @@ header .center .thanhdieuhuong .li .a{
     margin-left: 50px;
     margin-top: 2px;
   }
-  .input{
-    width: 90%;
-    height: 45px;
-    color: #000;
-    border: 0;
-    border-bottom: 1px solid #dfdfdf;
-    outline: 0;
-    margin-bottom: 15px;
-    font-size: 13px;
-    padding-left: 10px;
-}
-.container-page-text{
-    width: 100%;
-    display: block;
-    display: flex;
-    justify-content: start;
-    margin: 0;
-    /* margin-left: -15px; */
-}
-.input1{
-    border: 0;
-    border-bottom: 1px solid #dfdfdf;
-    outline: 0;
-    width: 90%;
-    min-height: 100px;
-    margin-bottom: 15px;
-    padding: 20px 0 0 10px;
-    font-size: 13px;
-}
-
-.container-page-text {
-    margin-bottom: 10px;
-}
-.message, .error {
-    display: none;
-    padding: 10px;
-    margin-top: 10px;
-}
-.message {
-    background-color: #dff0d8;
-    border: 1px solid #3c763d;
-    color: #3c763d;
-    border-radius: 10px;
-}
-.error {
-    background-color: rgba(242, 224, 206, 0.3);
-    border: 1px solid #F37C25;
-    color: red;
-    border-radius: 10px;
-}
+  /* -------------- */
 #map {
   height: 50vh; 
+}
+/* ----------------- */
+.footer-left-item {
+  display: flex;
+  flex-direction: column; /* Chỉnh flex-direction thành column để sắp xếp theo chiều dọc */
+  max-width: 400px; /* Tùy chỉnh độ rộng tối đa của form container */
+  margin: auto; /* Đưa form vào giữa trang */
+  padding: 20px;
+}
+
+.footer-left-item-gg {
+  margin-bottom: 15px;
+}
+
+.input,
+.message,
+.error {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.btn-submit{
+  width: 10%;
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 45%;
+}
+
+.input1{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: -50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.message,
+.error {
+  display: none;
+  color: green; /* Màu cho thông báo thành công */
+}
+
+.error {
+  color: red; /* Màu cho thông báo lỗi */
+}
+.emailmain{
+  text-decoration: underline ;
+  cursor: pointer;
+}
+.emailmain:hover{
+  color:  #40E0D0;
 }
