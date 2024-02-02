@@ -1,0 +1,93 @@
+@media screen and (max-width: 640px) {
+    .hop-menu {
+        display: block !important;
+        height: 20px;
+    }
+    .hop-menu a i {
+        font-size: 20px;
+        color: #ddd;
+    }
+    .thanhdieuhuong {
+        display: none;
+    }
+    header {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .bd6 {
+        left: 47vh;
+        height: 53vh;
+        width: 45vh;
+    }
+
+    footer {
+        margin-top: 34%;
+    }
+    .right {
+        margin-top: 120px;
+    }
+    .content {
+        padding-top: 200px;
+    }
+    .content-2 {
+        padding-top: 0;
+    }
+    .code {
+        padding: 40px 100px;
+    }
+    .right {
+        top: 0%;
+    }
+    .schools-list {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .schools-list .c1 {
+        width: 49%;
+    }
+    .hobby {
+        margin-top: 70px;
+    }
+    .test-line {
+        flex-wrap: wrap;
+    }
+    .test-line .c12 {
+        width: 47%;
+    }
+    .about::after {
+        width: 33.3%;
+        left: 34%;
+    }
+    .bd6_2 {
+        left: 64vh;
+    }
+    .pro {
+        padding-top: 90px;
+    }
+    .containey-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .containey {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 0;
+    }
+    .containey .item {
+        width: 21%;
+        gap: 5px;
+    }
+    .main-center {
+        flex-wrap: wrap;
+    }
+    .main-tp {
+        width: 47%;
+        padding: 8px;
+    }
+    .footer {
+        padding-top: 90px;
+    }
+    .footer .footer-center {
+        flex-wrap: wrap;
+    }
+}
