@@ -80,15 +80,20 @@ function submitForm() {
   }
 }
 
-
-// map
-document.addEventListener('DOMContentLoaded', function () {
-  var mymap = L.map('map').setView([21.0285, 105.8542], 13); // Đặt tọa độ ban đầu và mức zoom
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
-  }).addTo(mymap);
-
-  var marker = L.marker([21.0285, 105.8542]).addTo(mymap); // Tạo điểm đánh dấu
-  marker.bindPopup("<b>Hello!</b><br>This is a sample popup.").openPopup(); // Thêm thông báo mở rộng khi nhấp vào điểm đánh dấu
-});
+///// bars
+function myD() {
+  var x = document.getElementById("menu");
+  if (x.style.visibility === "hidden") {
+    x.style.visibility = "visible";
+  } else {
+    x.style.visibility = "hidden";
+  }
+}
+function myX() {
+  var x = document.getElementById("menu");
+  if (x.style.visibility === "visible") {
+    x.style.visibility = "hidden";
+  } else {
+    x.style.visibility = "visible";
+  }
+}

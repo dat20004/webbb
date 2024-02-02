@@ -6,7 +6,7 @@
         <title>ABOUT</title>
         <link rel="icon" type="image/png" href="./img/avatar.jpg" alt="Image"
             width="40px" height="40px">
-        <link rel="stylesheet" href="./cv/about.css">
+        <link rel="stylesheet" href="./css/about.css">
         <script
             src="https://kit.fontawesome.com/533aad8d01.js"
             crossorigin="anonymous"></script>
@@ -20,67 +20,98 @@
                 <ul class="thanhdieuhuong">
                     <li> <a href="index.html" class="btn btn-5"><p class="home">Home</p></a></li>
                     <li> <a href="about.html" class="btn btn-5"><p class="home">About</p></a></li>
-                    <li> <a href="portfolio.html" class="btn1 btn-5"><p class="home">Portfolio</p></a></li>
-                    <li> <a href="service.html" class="btn btn-5"><p class="home">Service</p></a></li>
-                    <li> <a href="contact.html" class="btn btn-5"><p class="home">Contact</p></a></li>
+                    <li> <a href="portfolio.html" class="btn1 btn-5"><p
+                                class="home">Portfolio</p></a></li>
+                    <li> <a href="service.html" class="btn btn-5"><p
+                                class="home">Service</p></a></li>
+                    <li> <a href="contact.html" class="btn btn-5"><p
+                                class="home">Contact</p></a></li>
                 </ul>
+                <div class="hop-menu" onclick="myD()" style="width: 20px;">
+                    <a><i class="menu fa-solid fa-bars"
+                            style="cursor: pointer; font-size: 30px;"></i></a>
+                </div>
+                <div class="bd6" id="menu">
+                    <div onclick="myX()" style="width: 20px;">
+                        <i class="fa fa-times" aria-hidden="true"
+                            style="color: black; font-size: 30px; cursor: pointer;"></i>
+                        <nav class="bd61">
+                            <a class="portfolio" href="index.html">Home</a>
+                            <a class="portfolio" href="about.html">About</a>
+                            <a class="portfolio" href="portfolio.html">Portfolio</a>
+                            <a class="portfolio" href="service.html">Service</a>
+                            <a class="portfolio" href="contact.html">Contact</a>
+                        </nav>
+                    </div>
+                </div>
             </div>
+            <script src="./js/about.js"></script>
         </header>
-        <div>
-        <div class="about">
-            <h><b>ABOUT ME</b></h>
-        </div>
-        <div class="main">
-            <div class="name">
-                <h>Nguyễn Văn Đạt</h>
-                <div class="infoooo">
-                    <p id="longText">Mình là Đạt, một người đam mê IT, hiện đang sống và học tập tại
-                    Hà Nội. Mình đang học tại trường Đại học Thủ đô Hà Nội, chuyên ngành CNTT. 
-                    Mình thường xuyên tìm kiếm cơ hội để học hỏi và phát triển bản thân cả về kiến thức 
-                    lẫn kỹ năng.
-
-                    Trải qua những hành trình của cuộc sống, mình đã có cơ hội
-                    làm việc và học hỏi từ nhiều môi trường khác nhau, từ đó
-                    tích luỹ được nhiều kinh nghiệm và hiểu biết. 
-
-                    Ngoài ra, mình cũng rất đam mê bóng đá và những hoạt động thể thao, điều này giúp mình giải tỏa stress và tìm thấy niềm vui
-                    trong cuộc sống hàng ngày. </p>
-                    <button class="readMoreBtn" onclick="toggleReadMore()">Xem thêm</button>
-                </div>
-        </div>
-            <div class="container displaycontainer">
-                <img class="mySlides" src="./img/ava1.jpg" style="width:70%;height:70%">
-                <img class="mySlides" src="./img/ava2.jpg" style="width:70%;height:70%">
-                <img class="mySlides" src="./img/ava5.jpg" style="width:70%;height:70%">
-                <button class="button left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="button right" onclick="plusDivs(1)">&#10095;</button>
+        <!-- ---------------------------- -->
+        <div class="content">
+            <div class="about">
+                <h><b>ABOUT ME</b></h>
             </div>
-            <script src="./cv/about.js"></script>
+            <div class="main">
+                <div class="name">
+                    <h>Nguyễn Văn Đạt</h>
+                    <div class="infoooo">
+                        <p id="longText">Mình là Đạt, một người đam mê IT, hiện
+                            đang sống và học tập tại
+                            Hà Nội. Mình đang học tại trường Đại học Thủ đô Hà
+                            Nội, chuyên ngành CNTT.
+                            Mình thường xuyên tìm kiếm cơ hội để học hỏi và phát
+                            triển bản thân cả về kiến thức
+                            lẫn kỹ năng.
+
+                            Trải qua những hành trình của cuộc sống, mình đã có
+                            cơ hội
+                            làm việc và học hỏi từ nhiều môi trường khác nhau,
+                            từ đó
+                            tích luỹ được nhiều kinh nghiệm và hiểu biết.
+
+                            Ngoài ra, mình cũng rất đam mê bóng đá và những hoạt
+                            động thể thao, điều này giúp mình giải tỏa stress và
+                            tìm thấy niềm vui
+                            trong cuộc sống hàng ngày. </p>
+                        <button class="readMoreBtn" onclick="toggleReadMore()">Xem
+                            thêm</button>
+                    </div>
+                </div>
+                <div class="container displaycontainer">
+                    <img class="mySlides" src="./img/ava1.jpg"
+                        style="width:70%;height:70%">
+                    <img class="mySlides" src="./img/ava2.jpg"
+                        style="width:70%;height:70%">
+                    <img class="mySlides" src="./img/ava5.jpg"
+                        style="width:70%;height:70%">
+                    <button class="button left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="button right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                <script src="./js/about.js"></script>
                 <br>
-        </div>
-        <hr>
-        <!--  -->
-        <div class="code">
-            <div class="code-web">
-                <div class="code-web-header">
-                    <h3>Skills</h3>
+            </div>
+            <!--  -->
+            <div class="code">
+                <div class="code-web">
+                    <div class="code-web-header">
+                        <h3>Skills</h3>
+                    </div>
+                    <h4 class="code-web-h">C</h4>
+                    <div class="code-web-css">
+                        <div class="html"></div>
+                    </div>
+                    <h4 class="code-web-h">HTML & CSS</h4>
+                    <div class="code-web-css">
+                        <div class="C"></div>
+                    </div>
+                    <h4 class="code-web-h">Javascript</h4>
+                    <div class="code-web-css">
+                        <div class="javas"></div>
+                    </div>
                 </div>
-                <h4 class="code-web-h">C</h4>
-                <div class="code-web-css">
-                    <div class="html"></div>
-                </div>
-                <h4 class="code-web-h">HTML & CSS</h4>
-                <div class="code-web-css">
-                    <div class="C"></div>
-                </div>
-                <h4 class="code-web-h">Javascript</h4>
-                <div class="code-web-css">
-                    <div class="javas"></div>
-                </div>
-            </div> 
-        </div>
-        <hr>
-  <!------------------------------------->
+            </div>
+            <!------------------------------------->
             <div class="schools">
                 <h>Schools</h>
                 <br>
@@ -94,7 +125,7 @@
                         <img src="./img/c2.png" alt="im">
                         <p>Trường THCS Ngọc Thuỵ</p>
                         <p1>2022-2026</p1>
-                        
+
                     </div>
                     <div class="c1">
                         <img src="./img/c3.png" alt="im">
@@ -108,8 +139,7 @@
                     </div>
                 </div>
             </div>
-            
-            <hr>
+
             <div class="hobby">
                 <h>Hobby</h>
                 <div class="schools-list">
@@ -131,9 +161,39 @@
                     </div>
                 </div>
             </div>
-    </div>
-    <div class="footer">
-        <p>© 2024 CV Design by Nguyen Van Dat.</p>
-    </div>
+            <br>
+            <div class="test">
+                <h>Testimonials</h>
+                <div class="test-line">
+                    <div class="c12">
+                        <img src="./img/đangung.jpg" alt="im">
+                        <h class="main-h">Phan Đăng Dũng</h>
+                        <p>Là một người chăm chỉ, sáng tạo và luôn biết cách
+                            chứng tỏ mình.</p>
+                    </div>
+                    <div class="c12">
+                        <img src="./img/duckhoa.jpg" alt="im">
+                        <h class="main-h">Nguyễn Đức Khoa</h>
+                        <p>Người luôn biết giúp đỡ bạn bè, luôn hoà đồng với mọi
+                            người.</p>
+                    </div>
+                    <div class="c12">
+                        <img src="./img/tuananh.jpg" alt="im">
+                        <h class="main-h">Nguyễn Tuấn Anh</h>
+                        <p>Là người luôn năng động, tham gia nhiều hoạt động và
+                            có cố gắng trong cuộc sống.
+                        </p>
+                    </div>
+                    <div class="c12">
+                        <img src="./img/themanh.jpg" alt="im">
+                        <h class="main-h">Nguyễn Thế Mạnh</h>
+                        <p>Là người chín chắn trong suy nghĩ và cách ứng xử.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© 2024 CV Design by Nguyen Van Dat.</p>
+        </footer>
     </body>
 </html>

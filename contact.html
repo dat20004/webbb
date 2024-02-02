@@ -1,93 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
-    <link rel="icon" type="image/png" href="./img/avatar.jpg" alt="Image"
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONTACT</title>
+        <link rel="icon" type="image/png" href="./img/avatar.jpg" alt="Image"
             width="40px" height="40px">
-    <link rel="stylesheet" href="./cv/contact.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
         <script
             src="https://kit.fontawesome.com/533aad8d01.js"
-            crossorigin="anonymous"
-        ></script>
-</head>
-<body>
-    <header>
-        <div class="cv">
-            <img src="./img/logochuan.png" alt="icon">
-        </div>
-        <div class="center">
-            <ul class="thanhdieuhuong">
-                <li> <a href="index.html" class="btn btn-5"><p class="home">Home</p></a></li>
-                <li> <a href="about.html" class="btn btn-5"><p class="home">About</p></a></li>
-                <li> <a href="portfolio.html" class="btn1 btn-5"><p
-                            class="home">Portfolio</p></a></li>
-                <li> <a href="service.html" class="btn btn-5"><p
-                            class="home">Service</p></a></li>
-                <li> <a href="contact.html" class="btn btn-5"><p
-                            class="home">Contact</p></a></li>
-            </ul>
-        </div>
-    </header>
-    <!-- ------------------------------------ -->
-    <div class="footer">
-        <div class="id">
-            <h>Contact me</h>
-        </div>
-        <br>
-        
-        <div class="footer-center">
-            <div class="footer-left">
-                <div class="footer-left-item">
-                    <div class="footer-left-item-gg">
-                        <input class="input" id="nameInput" placeholder="Họ và tên" />
-                    </div>  
-                    <div class="footer-left-item-gg">
-                        <input class="input" id="phoneInput" placeholder="Số điện thoại" />
-                    </div> 
-                    <div class="footer-left-item-gg">
-                        <input class="input" id="addressInput" placeholder="Địa chỉ" />
-                    </div> 
-                    <div class="footer-left-item-gg">
-                        <input class="input" id="emailInput" placeholder="E-mail" />
-                    </div>  
-                    <div class="footer-left-item-gg">
-                    <input class="input1" id="messageInput" placeholder="Lời góp ý" style="width: 100%; max-width: 450px;word-wrap: break-word; white-space: pre-wrap;"/>
-                </div> 
-                </div>  
-                 
-                <button class="btn-submit" onclick="submitForm()">Gửi</button>
-                <div class="message" id="Message">Bạn đã gửi thành công</div>
-                <div class="error" id="error">Vui lòng đúng định dạng email</div>
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="cv">
+                <img src="./img/logochuan.png" alt="icon">
             </div>
-            <script src="./cv/contact.js"></script>
-            <!-- --------------------------------- -->
-            <div class="footer-right">
-                <div class="contact-me">
-                     <h>Contact</h>
+            <div class="center">
+                <ul class="thanhdieuhuong">
+                    <li> <a href="index.html" class="btn btn-5"><p class="home">Home</p></a></li>
+                    <li> <a href="about.html" class="btn btn-5"><p class="home">About</p></a></li>
+                    <li> <a href="portfolio.html" class="btn1 btn-5"><p
+                                class="home">Portfolio</p></a></li>
+                    <li> <a href="service.html" class="btn btn-5"><p
+                                class="home">Service</p></a></li>
+                    <li> <a href="contact.html" class="btn btn-5"><p
+                                class="home">Contact</p></a></li>
+                </ul>
+                <div class="hop-menu" onclick="myD()" style="width: 20px;">
+                    <a><i class="menu fa-solid fa-bars"
+                            style="cursor: pointer; font-size: 30px;"></i></a>
                 </div>
-                <ul class="contact-tyle">
-                    <li><i class="fa-solid fa-location-dot" style="font-size: 21px; margin-top: 5px!important;"></i><p>Ngọc Thuỵ, Long Biên, Hà Nội</p></li>
-                    <li><i class="fa-solid fa-phone" style="font-size: 21px;margin-top: 5px!important;"></i><p>+84 867912204</p></li>
-                    <li><i class="fa-solid fa-envelope" style="font-size: 21px;margin-top: 5px!important;"></i><p class="emailmain">nvdat22082004@gmail.com</p></li>
-                    <hr>
-                    <div class="social">
-                        <p>Social</p>
-                    </div>    
-                    <div class="contact-icon"> 
-                            <a href="https://www.facebook.com/tuann.anhn.1"><i1 class="fa-brands fa-facebook-f"></i1></a>
-                            <a href="https://www.instagram.com/t_alh12/"><i3 class="fa-brands fa-instagram"></i3></a>
-                            <a href="https://mail.google.com/mail/u/0/#inbox"><i4 class="fa-regular fa-envelope"></i4></a>
+                <div class="bd6" id="menu">
+                    <div onclick="myX()" style="width: 20px;">
+                        <i class="fa fa-times" aria-hidden="true"
+                            style="color: black; font-size: 30px; cursor: pointer;"></i>
+                        <nav class="bd61">
+                            <a class="portfolio" href="index.html">Home</a>
+                            <a class="portfolio" href="about.html">About</a>
+                            <a class="portfolio" href="portfolio.html">Portfolio</a>
+                            <a class="portfolio" href="service.html">Service</a>
+                            <a class="portfolio" href="contact.html">Contact</a>
+                        </nav>
                     </div>
-                    <hr>
-                    <div id="map"></div>
-                    <script src="./cv/contact.js"></script>
+                </div>
             </div>
-        </div>
-    </div>
-</body>
-</html>
+            <script src="./js/contact.js"></script>
+        </header>
+        <!-- ------------------------------------ -->
+        <div class="footer">
+            <div class="id">
+                <h><b>CONTACT ME</b></h>
+            </div>
+            <br>
+
+            <div class="footer-center">
+                <div class="footer-left">
+                    <div class="footer-left-item">
+                        <div class="footer-left-item-gg">
+                            <input class="input" id="nameInput"
+                                placeholder="Họ và tên" />
+                        </div>
+                        <div class="footer-left-item-gg">
+                            <input class="input" id="phoneInput"
+                                placeholder="Số điện thoại" />
+                        </div>
+                        <div class="footer-left-item-gg">
+                            <input class="input" id="addressInput"
+                                placeholder="Địa chỉ" />
+                        </div>
+                        <div class="footer-left-item-gg">
+                            <input class="input" id="emailInput"
+                                placeholder="E-mail" />
+                        </div>
+                        <div class="footer-left-item-gg">
+                            <input class="input1" id="messageInput"
+                                placeholder="Lời góp ý"
+                                style="width: 100%; max-width: 450px;word-wrap: break-word; white-space: pre-wrap;" />
+                        </div>
+                    </div>
+
+                    <button class="btn-submit" onclick="submitForm()">Gửi</button>
+                    <div class="message" id="Message">Bạn đã gửi thành công</div>
+                    <div class="error" id="error">Vui lòng đúng định dạng email</div>
+                </div>
+                <script src="./js/contact.js"></script>
+                <!-- --------------------------------- -->
+                <div class="footer-right">
+                    <div class="contact-me">
+                        <h>Contact</h>
+                    </div>
+                    <ul class="contact-tyle">
+                        <li><i class="fa-solid fa-location-dot"
+                                style="font-size: 21px; margin-top: 5px!important;"></i><p>Ngọc
+                                Thuỵ, Long Biên, Hà Nội</p></li>
+                        <li><i class="fa-solid fa-phone"
+                                style="font-size: 21px;margin-top: 5px!important;"></i><p>+84
+                                867912204</p></li>
+                        <li><i class="fa-solid fa-envelope"
+                                style="font-size: 21px;margin-top: 5px!important;"></i><p
+                                class="emailmain">nvdat22082004@gmail.com</p></li>
+                        <div class="social">
+                            <p>Social</p>
+                        </div>
+                        <div class="contact-icon">
+                            <a href="https://www.facebook.com/tuann.anhn.1"><i1
+                                    class="fa-brands fa-facebook-f"></i1></a>
+                            <a href="https://www.instagram.com/t_alh12/"><i3
+                                    class="fa-brands fa-instagram"></i3></a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox"><i4
+                                    class="fa-regular fa-envelope"></i4></a>
+                        </div>
+                        <div class="mapouter"><div class="gmap_canvas"><iframe
+                                    src="https://maps.google.com/maps?q=ng%E1%BB%8Dc%20thu%E1%BB%B5%20long%20bi%C3%AAn%20&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                    frameborder="0" scrolling="no"
+                                    style="width: 470px; height: 420px;"></iframe><style>.mapouter{position:relative;height:420px;width:470px;background:#fff;} .maprouter a{color:#fff !important;position:absolute !important;top:0 !important;z-index:0 !important;}</style><a
+                                    href="https://blooketjoin.org/">blooket</a><style>.gmap_canvas{overflow:hidden;height:420px;width:470px}.gmap_canvas iframe{position:relative;z-index:2}</style></div></div>
+                        <script src="./js/contact.js"></script>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>

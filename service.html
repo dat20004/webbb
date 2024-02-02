@@ -7,7 +7,7 @@
         <title>SERVICE</title>
         <link rel="icon" type="image/png" href="./img/avatar.jpg" alt="Image"
             width="40px" height="40px">
-        <link rel="stylesheet" href="./cv/service.css">
+        <link rel="stylesheet" href="./css/service.css">
         <script
             src="https://kit.fontawesome.com/533aad8d01.js"
             crossorigin="anonymous"></script>
@@ -19,16 +19,31 @@
             </div>
             <div class="center">
                 <ul class="thanhdieuhuong">
-                    <li> <a href="index.html" class="btn btn-5"><p class="home">Home</p></a></li>
-                    <li> <a href="about.html" class="btn btn-5"><p class="home">About</p></a></li>
-                    <li> <a href="portfolio.html" class="btn1 btn-5"><p
-                                class="home">Portfolio</p></a></li>
-                    <li> <a href="service.html" class="btn btn-5"><p
-                                class="home">Service</p></a></li>
-                    <li> <a href="contact.html" class="btn btn-5"><p
-                                class="home">Contact</p></a></li>
+                    <li><a href="index.html" class="btn btn-5"><p class="home">Home</p></a></li>
+                    <li><a href="about.html" class="btn btn-5"><p class="home">About</p></a></li>
+                    <li><a href="portfolio.html" class="btn1 btn-5"><p class="home">Portfolio</p></a></li>
+                    <li><a href="service.html" class="btn btn-5"><p class="home">Service</p></a></li>
+                    <li><a href="contact.html" class="btn btn-5"><p class="home">Contact</p></a></li>
                 </ul>
+            
+            <div class="hop-menu" onclick="myD()" style="width: 20px;">
+                <a><i class="menu fa-solid fa-bars" style="cursor: pointer; font-size: 30px;"></i></a>
             </div>
+            <div class="bd6" id="menu">
+                <div onclick="myX()" style="width: 20px;">
+                    <i class="fa fa-times" aria-hidden="true" style="color: black; font-size: 30px; cursor: pointer;"></i>
+                </div>
+            
+            <nav class="bd61">
+                <a class="portfolio" href="index.html" >HOME</a>
+                <a class="portfolio" href="rusume.html">RUSUME</a>
+                <a class="portfolio" href="portfolio.html">PORTFOLIO</a>
+                <a class="portfolio" href="services.html">SERVICES</a>
+                <a class="portfolio" href="contact.html">CONTACT</a>  
+            </nav>
+        </div>
+        </div>
+        <script src="./js/service.js"></script>
         </header>
         <div class="main">
             <div class="main-service">
@@ -37,20 +52,21 @@
             <div class="main-center">
                 <div class="main-tp">
                     <img src="./img/html.jpg">
-                    <h class="main-h">Html & css</h>
+                    <h class="main-h"><b>Html & css</b></h>
+                    <br>
                     <p>Dịch vụ HTML và CSS thường liên quan đến việc phát triển
                         và tối ưu hóa trang web để đảm bảo trải nghiệm người
                         dùng tốt và giao diện đẹp mắt </p>
                 </div>
                 <div class="main-tp">
                     <img src="./img/js.png">
-                    <h class="main-h">JavaScript</h>
+                    <h class="main-h"><b>JavaScript</b></h>
                     <p>Cùng với HTML và CSS, JavaScript giúp tạo ra trang web
                         tương tác và động đẹp mắt.</p>
                 </div>
                 <div class="main-tp">
                     <img src="./img/java.png">
-                    <h class="main-h">Java</h>
+                    <h class="main-h"><b>Java</b></h>
                     <p>Java thường được sử dụng để xây dựng dịch vụ web thông
                         qua việc triển khai các ứng dụng RESTful API sử dụng các
                         framework như Spring Boot.
@@ -58,17 +74,18 @@
                 </div>
                 <div class="main-tp">
                     <img src="./img/res.jpg">
-                    <h class="main-h">Responsive design</h>
+                    <h class="main-h"><b>Responsive design</b></h>
                     <br>
                     <p>Giao diện người dùng được thiết kế sao cho nó có thể tự
                         động thích ứng với kích thước và độ phân giải màn hình
                         khác nhau, giúp cải thiện trải nghiệm người dùng.</p>
                 </div>
             </div>
-        </div>
         <br>
-        <div class="footer">
+    
+        <script src="./js/service.js"></script>
+        <footer>
             <p>© 2024 CV Design by Nguyen Van Dat.</p>
-        </div>
+        </footer>
     </body>
 </html>
