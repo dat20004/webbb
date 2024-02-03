@@ -106,7 +106,7 @@ header .center .thanhdieuhuong .li .a {
 /* ----------------------------------------------- */
 .pro {
   width: 100%;
-  padding-top: 10%;
+  padding-top: 130px;
 }
 
 .main h {
@@ -344,7 +344,7 @@ header .center .thanhdieuhuong .li .a {
 }
 
 .bd6 {
-  background-color: rgba(128, 128, 128, 1);
+  background-color: #0d6efd;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -409,7 +409,7 @@ footer p{
     float: none;
   }
 }
-@media screen and (max-width:550px) {
+/* @media screen and (max-width:550px) {
   .center {
     display: flex;
     align-items: center;
@@ -516,4 +516,186 @@ footer p{
   footer {
     margin-top: -105px;
   }
+} */
+@media screen and (max-width: 640px) {
+  body {
+    height: 100vh;
+  }
+
+  .container-center {
+    margin-top: -101px;
+  }
+
+  header {
+    display: flex;
+    /* padding-right: 53%; */
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 12px;
+  }
+
+  .name {
+    width: 50%;
+  }
+
+  .cv img {
+    margin-top: -10px;
+  }
+
+  .container {
+    width: 89vw;
+    height: 33vh;
+    margin: 20px calc((100% - 89vw) / 2);
+    border-radius: 10px;
+    margin-bottom: 85%;
+  }
+
+  .profile {
+    margin-bottom: 0;
+    /* margin-top: 60%; */
+  }
+
+  .thanhdieuhuong {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background-color: #333;
+    display: none;
+  }
+
+  .name p {
+    width: 224px;
+margin-left: -41px
+  }
+
+  .thanhdieuhuong li {
+    margin: 0;
+    text-align: center;
+  }
+
+  .container-center {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .thanhdieuhuong {
+    display: none;
+  }
+
+  .bd61> :not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .bd61 a {
+    color: inherit;
+    text-decoration: none;
+    margin-top: 12px;
+  }
+
+  .hop-menu {
+    display: block !important;
+  }
+
+  .left {
+    width: 100%;
+    /* top: 50%; */
+  }
+
+  .right {
+    height: 300px;
+  }
+
+  .displaycontainer {
+    margin-top: 2px;
+    margin-left: -36px;
+    height: 362px;
+    width: 50%;
+  }
+
+  .left {
+    position: absolute;
+    top: 164px;
+    left: -47%;
+  }
+
+  .code-web-css {
+    width: 100%;
+  }
+
+  .container-main {
+    height: 85vh;
+  }
+
+  .end {
+    margin-top: 103px;
+  }
+
+  footer {
+    margin-top: 11%!important;
+  }
+}
+
+.fa {
+  margin-left: 234px;
+  margin-top: -3px;
+
+}
+
+.bd6 {
+  /* background-color: #0d6efd; */
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  left: 58vh;
+  padding: 27px 32px 0 0;
+  top: 0;
+  width: 31vw;
+  z-index: 2000;
+  position: fixed;
+  visibility: hidden;
+}
+
+.portfolio {
+  border-bottom: 1px solid #0f0f0f;
+  height: 5vh;
+  margin-top: 12px;
+}
+
+.portfolio:hover {
+  color: #eaf1f4;
+}
+
+.bd61 {
+  align-items: flex-start;
+  align-self: flex-start;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  font-weight: 600;
+  /* line-height: 62%; */
+  /* margin-top: 42px; */
+  position: relative;
+  text-decoration: none;
+  margin-left: 6vh;
+  margin-top: 1vh;
+}
+
+.bd61> :not(:last-child) {
+  margin-bottom: 1px;
+}
+
+.bd61 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hop-menu {
+  display: none;
 }

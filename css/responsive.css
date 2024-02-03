@@ -13,18 +13,22 @@
     header {
         width: 100%;
         justify-content: space-between;
+        /* display: flex; */
     }
     .bd6 {
-        left: 47vh;
-        height: 53vh;
+        left: 46vh;
+        height: 46vh;
         width: 45vh;
     }
 
     footer {
         margin-top: 34%;
     }
+    .footer-m {
+        margin-top: 450%;
+    }
     .right {
-        margin-top: 120px;
+        margin-top: 164px;
     }
     .content {
         padding-top: 200px;
@@ -33,7 +37,7 @@
         padding-top: 0;
     }
     .code {
-        padding: 40px 100px;
+        padding: -2px 100px;
     }
     .right {
         top: 0%;
@@ -59,7 +63,9 @@
         left: 34%;
     }
     .bd6_2 {
-        left: 64vh;
+        left: 46vh;
+        height: 46vh;
+        width: 45vh;
     }
     .pro {
         padding-top: 90px;
