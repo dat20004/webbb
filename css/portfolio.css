@@ -364,7 +364,7 @@ header .center .thanhdieuhuong .li .a {
   color: black;
   display: flex;
   flex-direction: column;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 62%;
   margin-top: 42px;
@@ -533,10 +533,10 @@ footer p{
 
   .center {
     display: flex;
-    align-items: center;
-    margin-right: 20px;
-    margin-top: 12px;
-  }
+        align-items: center;
+        margin-right: 20px;
+        margin-top: 12px;
+}
 
   .name {
     width: 50%;
@@ -698,4 +698,21 @@ margin-left: -41px
 
 .hop-menu {
   display: none;
+}
+@media screen and (max-width: 412px) {
+    .fa{
+      margin-left: 180px;
+  margin-top: -2px;
+}
+.pro-container{
+  margin-top: 14px;
+  margin-left: -29px;
+}
+.main{
+  margin-top: 17px;
+}
+.pro-center{
+  margin-top: 20px;
+  
+}
 }

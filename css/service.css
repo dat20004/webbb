@@ -482,7 +482,7 @@ margin-left: -41px
   color: black;
   display: flex;
   flex-direction: column;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 600;
   /* line-height: 62%; */
   /* margin-top: 42px; */
@@ -504,3 +504,11 @@ margin-left: -41px
 .hop-menu {
   display: none;
 }
+
+@media screen and (max-width: 412px) {
+  .fa {
+    margin-left: 180px;
+    margin-top: -2px;
+}
+}
+

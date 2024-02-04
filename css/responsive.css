@@ -1,4 +1,7 @@
 @media screen and (max-width: 640px) {
+    .main {
+        flex-wrap: wrap;
+    }
     .hop-menu {
         display: block !important;
         height: 20px;
@@ -24,9 +27,7 @@
     footer {
         margin-top: 34%;
     }
-    .footer-m {
-        margin-top: 450%;
-    }
+
     .right {
         margin-top: 164px;
     }
@@ -63,7 +64,7 @@
         left: 34%;
     }
     .bd6_2 {
-        left: 46vh;
+        left: 45vh;
         height: 46vh;
         width: 45vh;
     }
@@ -96,4 +97,33 @@
     .footer .footer-center {
         flex-wrap: wrap;
     }
+}
+@media screen and (max-width: 412px) {
+    .end {
+        padding: 30px;
+    }
+    footer {
+        margin-top: 10px;
+    }
+    .schools-list .c1 {
+        width: 100%;
+    }
+    .test-line .c12 {
+        width: 100%;
+    }
+    .item-main {
+        overflow: visible;
+    }
+    .containey .item {
+        width: 100%;
+    }
+    .bd6 {
+        left: 21vh;
+        height: 46vh;
+        width: 45vh;
+    }
+    /* .fa{
+        margin-left: 161px;
+    margin-top: -2px;
+    } */
 }
