@@ -715,4 +715,10 @@ margin-left: -41px
   margin-top: 20px;
   
 }
+.center {
+  display: flex;
+      align-items: center;
+      margin-right: 44px;
+      margin-top: 12px;
+}
 }

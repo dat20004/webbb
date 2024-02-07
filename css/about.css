@@ -300,21 +300,21 @@ header .center .thanhdieuhuong .li .a {
 }
 
 .html {
-    background-color: #f5e4c3;
+    background-color: #0d6efd;
     height: 4px;
     border-radius: 2px;
     width: 95%;
 }
 
 .C {
-    background-color: #f5e4c3;
+    background-color: #0d6efd;
     height: 4px;
     border-radius: 2px;
     width: 80%;
 }
 
 .javas {
-    background-color: #f5e4c3;
+    background-color: #0d6efd;
     height: 4px;
     border-radius: 2px;
     width: 60%;
@@ -333,6 +333,7 @@ header .center .thanhdieuhuong .li .a {
     /* height: 55vh; */
     line-height: 40px;
     padding-left: 7.5%;
+    padding-top: 19px;
 }
 
 .hobby h {
@@ -554,6 +555,7 @@ header .center .thanhdieuhuong .li .a {
 
 .main-h {
     font-size: 25px;
+    color: #0f0f0f!important;
 }
 
 .main-tp p {
@@ -564,7 +566,7 @@ header .center .thanhdieuhuong .li .a {
 .test {
     width: 85%;
     /* height: 55vh; */
-    margin-top: 5%;
+    padding-top: 19px;
     padding-left: 7.5%;
 }
 
@@ -613,21 +615,19 @@ header .center .thanhdieuhuong .li .a {
 
 .content {
     width: 100%;
-    /* height: 70%; */
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        /* height: 100vh; */
+    .fa{
+        margin-left: 176px;
+    margin-top: -2px;
     }
-
     .container-center {
         margin-top: -101px;
     }
 
     header {
         display: flex;
-        /* padding-right: 53%; */
     }
 
     .center {
@@ -732,6 +732,7 @@ header .center .thanhdieuhuong .li .a {
 
         width: 100%;
         display: flex;
+        height: 104vh;
     }
 
     .left {
@@ -844,4 +845,13 @@ header .center .thanhdieuhuong .li .a {
         margin-left: 180px;
         margin-top: -2px;
     }
+    .center {
+        display: flex;
+            align-items: center;
+            margin-right: 44px;
+            margin-top: 12px;
+      }
+      header{
+        width: 80%;
+      }
 }

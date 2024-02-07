@@ -110,6 +110,7 @@
     }
     .test-line .c12 {
         width: 100%;
+        height: 14%;
     }
     .item-main {
         overflow: visible;
@@ -122,8 +123,4 @@
         height: 46vh;
         width: 45vh;
     }
-    /* .fa{
-        margin-left: 161px;
-    margin-top: -2px;
-    } */
 }
