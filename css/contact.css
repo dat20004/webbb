@@ -154,12 +154,12 @@ align-items: center;  */
   gap: 7px;
   font-size: 40px;
   color: #000;
+  text-decoration: none;
 }
 
 .contact-tyle li p {
   font-size: 17px;
 }
-
 .footer .footer-center .footer-left {
   width: 100%;
 
@@ -171,6 +171,8 @@ align-items: center;  */
   margin: 0;
   padding: 20px;
   color: #fff;
+  text-decoration: none;
+
 }
 
 .contact-tyle li {
@@ -198,7 +200,7 @@ align-items: center;  */
 }
 
 .contact-icon i1:hover {
-  color: #0d6efd;
+  color: #1a4f9e;
 }
 
 .contact-icon i3:hover {
@@ -296,12 +298,12 @@ align-items: center;  */
 }
 
 .emailmain {
-  text-decoration: underline;
   cursor: pointer;
+  color: #0f0f0f!important;
 }
 
 .emailmain:hover {
-  color: #40e0d0;
+  color: #4180ed!important;
 }
 
 /* @media screen and (max-width: 550px) {
