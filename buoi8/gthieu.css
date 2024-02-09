@@ -70,26 +70,20 @@
     height: 250px;
     background-color: #f5f5f5;
     padding-top: 120px;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 } 
 .the-to h1{
     height: 16vh;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
 }
 .the-to p{
     text-align: center;
     font-size: 15px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    width: 200px;
+    width: 359px;
+    margin-left: 560px;
 }
 
 .photos1{
