@@ -444,12 +444,11 @@ margin-left: -41px
   footer {
     margin-top: 11%!important;
   }
-}
-
-.fa {
-  margin-left: 241px;
-  margin-top: -3px;
-
+  .fa {
+    margin-left: 234px;
+    margin-top: -3px;
+  
+  }
 }
 
 .bd6 {

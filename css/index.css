@@ -305,7 +305,7 @@ color: #0f0f0f; */
         height: 100vh;
     }
     .fa{
-        margin-left: 168px;
+        margin-left: 227px;
     margin-top: -6px;
     }
     .container-center {
@@ -494,7 +494,7 @@ color: #0f0f0f; */
     .center {
         display: flex;
             align-items: center;
-            margin-right: 44px;
+            margin-right: 20px;
             margin-top: 12px;
       }
 }
